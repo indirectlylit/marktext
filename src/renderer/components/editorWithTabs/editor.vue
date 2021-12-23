@@ -83,12 +83,12 @@ import Muya from 'muya/lib'
 import TablePicker from 'muya/lib/ui/tablePicker'
 import QuickInsert from 'muya/lib/ui/quickInsert'
 import CodePicker from 'muya/lib/ui/codePicker'
-import EmojiPicker from 'muya/lib/ui/emojiPicker'
+// import EmojiPicker from 'muya/lib/ui/emojiPicker'
 import ImagePathPicker from 'muya/lib/ui/imagePicker'
 import ImageSelector from 'muya/lib/ui/imageSelector'
 import ImageToolbar from 'muya/lib/ui/imageToolbar'
 import Transformer from 'muya/lib/ui/transformer'
-import FormatPicker from 'muya/lib/ui/formatPicker'
+// import FormatPicker from 'muya/lib/ui/formatPicker'
 import LinkTools from 'muya/lib/ui/linkTools'
 import FootnoteTool from 'muya/lib/ui/footnoteTool'
 import TableBarTools from 'muya/lib/ui/tableTools'
@@ -553,7 +553,7 @@ export default {
       Muya.use(TablePicker)
       Muya.use(QuickInsert)
       Muya.use(CodePicker)
-      Muya.use(EmojiPicker)
+      // Muya.use(EmojiPicker)
       Muya.use(ImagePathPicker)
       Muya.use(ImageSelector, {
         unsplashAccessKey: process.env.UNSPLASH_ACCESS_KEY,
@@ -561,7 +561,7 @@ export default {
       })
       Muya.use(Transformer)
       Muya.use(ImageToolbar)
-      Muya.use(FormatPicker)
+      // Muya.use(FormatPicker)
       Muya.use(FrontMenu)
       Muya.use(LinkTools, {
         jumpClick: this.jumpClick
